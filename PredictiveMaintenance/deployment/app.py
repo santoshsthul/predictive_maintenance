@@ -93,7 +93,7 @@ if st.button("Analyze Engine Health"):
 # 6. FOOTER/INFO
 with st.expander("About this model"):
     st.write("""
-    This model was trained using a gradient-boosted decision tree algorithm (XGBoost)
+    This model was trained using an Adaptive Boosting (AdaBoost) algorithm
     optimized for engine sensor telemetry. It identifies non-linear correlations
     between pressure, temperature, and speed to predict potential mechanical failures
     before they occur.
