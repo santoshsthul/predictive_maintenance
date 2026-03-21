@@ -54,8 +54,7 @@ accuracy = accuracy_score(y_test, y_pred_final)
 roc_auc = roc_auc_score(y_test, y_pred_final)
 f1_class_1 = f1_score(y_test, y_pred_final, pos_label=1)
 
-print("
-Final Model Performance (AdaBoost):")
+print("Final Model Performance (AdaBoost):")
 print(report)
 print(f"Accuracy: {accuracy:.4f}")
 print(f"ROC AUC: {roc_auc:.4f}")
