@@ -10,7 +10,7 @@ st.set_page_config(page_title="Engine Health Predictor", layout="centered")
 
 # Hugging Face model details
 repo_id = "SantoshS23/PredMaintModel"
-filename = "best_predictive_maintenance_model_v1.joblib"
+filename = "adaboost_predictive_maintenance_model.joblib"
 
 # Get Hugging Face token from environment variables
 hf_token = os.getenv("HF_TOKEN")
